@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>D3 Test</title>
+<script src="JS/drawBarchart_2.js" type="text/javascript"></script>
+<script src="JS/drawPiechart.js" type="text/javascript"></script>
+<script src="JS/getDataset_dummy.js" type="text/javascript"></script>
+<script src="JS/flights_force.js" type="text/javascript"></script>
+<script type="text/javascript" src="//d3js.org/d3.v3.js"></script>
+<style type="text/css">
+.button {
+	background-color: lightgreen; /* Green */
+	border: none;
+	color: black;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin-right: 5px
+}
+
+.bar rect {
+	fill: teal;
+	shape-rendering: crispEdges;
+}
+
+.bar text {
+	fill: #fff;
+}
+
+.arc text {
+	font: 16px sans-serif;
+	text-anchor: middle;
+}
+
+.arc path {
+	stroke: #fff;
+	shape-rendering: crispEdges;
+}
+
+.axis {
+	font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.bin.label {
+	font: 200 120px "Helvetica Neue";
+	fill: #ddd;
+}
+
+.bin.label.active {
+	fill: #aaa;
+}
+
+.overlay {
+	fill: none;
+	pointer-events: all;
+	cursor: ew-resize;
+}
+
+.info {
+	font: 18px "Helvetica Neue";
+}
+
+.link {
+	stroke: #ccc;
+}
+
+.node text {
+	pointer-events: none;
+	font: 10px sans-serif;
+}
+</style>
+</head>
+<body>
+	<div>
+		<button id="chartButton" class="button" onclick="readCSV()">Pie
+			Chart</button>
+		<button id="forceButton" class="button" onclick="flight()">Force
+			Layout</button>
+	</div>
+	<p id="info" class="info"></p>
+	<p id="svg"></p>
+	<script type="text/javascript">
+			// Global variables used across the graphs
+			var index = 0;
+			var margin = {top: 10, right: 30, bottom: 30, left: 30};
+			var w = 960 - margin.left - margin.right;
+			var h = 500 - margin.top - margin.bottom;
+			var radius = Math.min(w - margin.right, h - margin.bottom) / 2;
+			var barPadding = 5;
+			var variables = ["Flight duration", "Day of Month","Dep.Time (Hour)","Delay (minutes)"];
+
+			var binsize = 2;
+			var binmargin = 0;
+			var minbin = 0, maxbin = 0;
+			var minBins = 5, maxBins = 25;
+			var numbins = 15;
+			var curr = 0;
+			var histdata;
+			
+			// Reads the CSV and Plots the graphs
+			readCSV();
+     </script>
+</body>
+</html>

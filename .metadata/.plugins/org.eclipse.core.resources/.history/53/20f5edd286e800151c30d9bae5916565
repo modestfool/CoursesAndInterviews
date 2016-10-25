@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package linkedLists;
+
+/**
+ * InsertSortedList.java 
+ * @author Basava R.Kanaparthi(basava.08@gmail.com)
+ * Created on Mar 8, 2016
+ */
+public class InsertSortedList {
+	NodeD SortedInsert(NodeD head,int data) {
+		  NodeD new_node = new NodeD();
+		  new_node.data = data;
+		  new_node.next = null;
+		  new_node.prev  = null;
+		  if (head == null)
+		      return new_node;
+		  NodeD temp = head;
+		  while (temp != null)  
+		  {
+		      if (new_node.data < temp.data)
+		      {
+		          new_node.prev = temp.prev;
+		          new_node.next = temp;
+		          temp.prev = new_node;
+		          break;
+		      }
+		      temp = temp.next;
+		  }
+		 return head;
+	}
+	
+	public static void main(String[] args)
+	{
+		NodeD head = null;
+		Sorted
+	}
+	
+}
+
+class NodeD{
+	int data;
+	NodeD next;
+	NodeD prev;
+}

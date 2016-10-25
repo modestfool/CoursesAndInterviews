@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;NLPDecoderDemo.java&apos; to &apos;nlp4j-example/src/main/java/edu.emory.mathcs.nlp.demo&apos;&#x0A;- Original project: &apos;nlp4j-example&apos;&#x0A;- Destination element: &apos;nlp4j-example/src/main/java/edu.emory.mathcs.nlp.demo&apos;&#x0A;- Original element: &apos;edu.emory.mathcs.nlp.demo.NLPDecoderDemo.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;edu.emory.mathcs.nlp.demo" element1="/src\/main\/java&lt;edu.emory.mathcs.nlp.demo{NLPDecoderDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1474659351710" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,60 @@
+                       Patient Name: BAXTER WILLIE
+DOB:2/7/1945                   Sex: M       MRN: 30175090
+Date: 1/19/2016 at 09:16:25
+Acc#: 64579398   Enc#: 10095553359
+Requested By: 949388,PATEL,SRUTI
+       CXR14,CHEST AP PORTABLE
+
+https://pacs3.rad.sunysb.edu/loadStudy.jsp?user_name=AnonymousUser&password=&rsa=true&accession_number=6555032&nat_access=true^HNAM^URL
+ 
+Given history is a 70-year-old male status post Apollo procedure  
+ 
+Technique:  
+ 
+ 
+AP portable view of the chest were submitted .  
+ 
+ 
+Comparison:  
+ 
+ 
+01/19/2016 earlier in the day  
+ 
+ 
+Findings:  
+ 
+ 
+Endotracheal tube is now seen with its tip 7.2 cm above the carina. 
+An bold NG tube appears advanced entering the abdomen.  The tip is 
+not visualized. The trachea is midline. The aorta is mildly calcified 
+otherwise seen mediastinal silhouette is normal in appearance. The 
+cardiac size cannot be adequately determined due to magnification 
+from AP projection. Bilateral pleural effusions with retrocardiac 
+atelectasis is noted. Mild congestive changes. There is no evidence 
+of pneumothorax.  
+ 
+ 
+Impression:  
+ 
+ 
+Endotracheal tube 7.2 cm above the carina. Interval advancement of NG 
+tube.  
+Bilateral pleural effusions with retrocardiac atelectasis.  Possible 
+mild pulmonary congestion.
+
+Attending Radiologist:     MASON, MARYANNA 
+Ordered By:                PATEL, SRUTI 
+Order Date/Time:           January 19, 2016 7:40 AM
+Scan Initiation Date/Time: January 19, 2016 8:37 AM
+Completion Date/Time:      January 19, 2016 8:44 AM
+Encounter Number:          010095553359
+Accession Number:          6555032
+Images were reviewed and interpreted by Attending Radiologist: Dr. MASON, MARYANNA 
+
+Electronically Signed On:  January 19, 2016 9:16 AM by Dr. MASON, MARYANNA 
+
+
+
+STONY BROOK UNIVERSITY HOSPITAL
+DEPARTMENT OF RADIOLOGY
+STONY BROOK, NY 11794-7300

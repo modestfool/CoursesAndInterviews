@@ -1,0 +1,22 @@
+  LinkedListNode* optimal(LinkedListNode* L) {
+      LinkedListNode* cur=L;
+      LinkedListNode* prev=L;
+      LinkedListNode* dummy;
+      set<int> unique;
+      while(cur!=NULL){
+          auto it=unique.find(cur->val);
+          if(it==unique.end()){
+              unique.insert(cur->val);
+              prev=cur;
+              cur=cur->next;
+          }else{
+              prev->next=cur->next;
+              dummy=cur;
+              cur=cur->next;
+              dummy->next=NULL;
+              free(dummy);
+
+          }
+      }
+      return L;
+  }

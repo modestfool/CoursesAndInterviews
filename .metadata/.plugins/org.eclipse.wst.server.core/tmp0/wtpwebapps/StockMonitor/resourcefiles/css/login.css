@@ -1,0 +1,117 @@
+
+form {
+		position:absolute;
+		left: 600px;
+		top: 350px;
+		display:inline-block;
+		z-index:10;
+	}
+button{
+		position:absolute;
+		left: 635px;
+		top:450px;
+		height: 30px;
+		width: 80px;
+		z-index:10;
+		cursor: pointer;
+		-webkit-border-radius: 4px/3px;
+		-moz-border-radius: 4px/3px;
+		border-radius: 4px/3px;
+		background-color: #fff;
+		-webkit-box-shadow: 0 2px 1px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.35);
+		-moz-box-shadow: 0 2px 1px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.35);
+		box-shadow: 0 2px 1px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.35);
+		border: solid 1px #4d899d;
+		background-image: -webkit-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: -moz-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: -o-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: -ms-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: linear-gradient(to top, #0b3b61, #6cbfda);
+	}
+input{
+		height: 25px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		background-color: #fff;
+		-webkit-box-shadow: 0 1px #fff, inset 0 1px rgba(102,102,102,.2), inset 0 0 1px rgba(0,0,0,.05);
+		-moz-box-shadow: 0 1px #fff, inset 0 1px rgba(102,102,102,.2), inset 0 0 1px rgba(0,0,0,.05);
+		box-shadow: 0 1px #fff, inset 0 1px rgba(102,102,102,.2), inset 0 0 1px rgba(0,0,0,.05);
+		font-family: Arial;
+		font-size: 12px;
+		color: #72a15a;
+		text-shadow: 0 1px #fff;
+	}
+svg{
+		position:absolute;
+		left: 510px;
+		top:310px;
+		width:500px;
+		height:300px;
+	}
+/* body {
+    background-image: url("Costco_grocery.jpg");
+} */
+/* html { 
+  background: url(Costco_grocery.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity:.50;
+} */
+.bg-blend {
+			background-blend-mode: multiply;
+		}
+span{
+		font-family: Arial;
+		font-size: 12px;
+		color: #fff;
+		text-shadow: 0 1px rgba(0,0,0,.4);
+	}
+#forgot{
+		position:absolute;
+		left: 620px;
+		top:485px;
+		font-family: Arial;
+		text-decoration: underline;
+		color: #a11920;
+		z-index:10;
+		cursor: pointer;	
+		}	
+body {
+  background: url("images/login.jpg"); /* , url("Costco-Logo.jpg") no-repeat center center fixed; */
+  background-blend-mode: multiply;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: -30px; 
+}		
+input[type=submit] {
+   
+/* 		left: 635px;
+		top:450px; */
+		height: 32px;
+		width: 80px;
+		margin-left: 30px;
+		z-index:10;
+		cursor: pointer;
+		-webkit-border-radius: 4px/3px;
+		-moz-border-radius: 4px/3px;
+		border-radius: 4px/3px;
+		background-color: #fff;
+		-webkit-box-shadow: 0 2px 1px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.35);
+		-moz-box-shadow: 0 2px 1px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.35);
+		box-shadow: 0 2px 1px rgba(0,0,0,.28), inset 0 1px rgba(255,255,255,.35);
+		border: solid 1px #4d899d;
+		background-image: -webkit-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: -moz-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: -o-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: -ms-linear-gradient(bottom, #0b3b61, #6cbfda);
+		background-image: linear-gradient(to top, #0b3b61, #6cbfda);
+		font-family: Arial;
+		font-size: 12px;
+		color: #fff;
+		text-shadow: 0 1px rgba(0,0,0,.4);
+}

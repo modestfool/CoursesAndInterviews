@@ -1,0 +1,8 @@
+127.0.0.1 - - [26/Mar/2016:17:47:59 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [26/Mar/2016:17:47:59 -0400] "GET /VisualizationMiniProjectOne/JS/drawBarchart_2.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Mar/2016:17:48:06 -0400] "GET /VisualizationMiniProjectOne/svg.html HTTP/1.1" 200 2228
+0:0:0:0:0:0:0:1 - - [26/Mar/2016:17:48:07 -0400] "GET /VisualizationMiniProjectOne/JS/drawBarchart_2.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Mar/2016:17:48:07 -0400] "GET /VisualizationMiniProjectOne/JS/drawPiechart.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Mar/2016:17:48:07 -0400] "GET /VisualizationMiniProjectOne/JS/getDataset_dummy.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Mar/2016:17:48:07 -0400] "GET /VisualizationMiniProjectOne/JS/flights_force.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Mar/2016:17:48:07 -0400] "GET /VisualizationMiniProjectOne/data/1987_Flights.csv HTTP/1.1" 304 -

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeFights/CodeFights.iml" filepath="$PROJECT_DIR$/CodeFights/CodeFights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/git/Hackerrank/Hackerrank.iml" filepath="$PROJECT_DIR$/git/Hackerrank/Hackerrank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interviews.iml" filepath="$PROJECT_DIR$/Interviews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MDOps/MDOps.iml" filepath="$PROJECT_DIR$/MDOps/MDOps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mathworks/Mathworks.iml" filepath="$PROJECT_DIR$/Mathworks/Mathworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NLP4jDependencyParser/NLP4jDependencyParser.iml" filepath="$PROJECT_DIR$/NLP4jDependencyParser/NLP4jDependencyParser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPOJ/SPOJ.iml" filepath="$PROJECT_DIR$/SPOJ/SPOJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servers/Servers.iml" filepath="$PROJECT_DIR$/Servers/Servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TimusOnlineJudge/TimusOnlineJudge.iml" filepath="$PROJECT_DIR$/TimusOnlineJudge/TimusOnlineJudge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UCSDUnfoldingMaps/UCSDUnfoldingMaps.iml" filepath="$PROJECT_DIR$/UCSDUnfoldingMaps/UCSDUnfoldingMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VisualizationMiniProjectOne/VisualizationMiniProjectOne.iml" filepath="$PROJECT_DIR$/VisualizationMiniProjectOne/VisualizationMiniProjectOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hl7parser_/hl7parser_.iml" filepath="$PROJECT_DIR$/hl7parser_/hl7parser_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nlp4j/nlp4j.iml" filepath="$PROJECT_DIR$/nlp4j/nlp4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nlp4j/nlp4j2.iml" filepath="$PROJECT_DIR$/nlp4j/nlp4j2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nlpParser/nlpParser.iml" filepath="$PROJECT_DIR$/nlpParser/nlpParser.iml" />
+    </modules>
+  </component>
+</project>

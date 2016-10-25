@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="446.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wmcontracts.MainController">
+   <children>
+      <Label prefHeight="36.0" prefWidth="294.0" text="            Managerial Functions Menu" />
+      <SplitPane dividerPositions="0.5" prefHeight="419.0" prefWidth="294.0">
+        <items>
+            <ListView id="listView" fx:id="listView" cache="true" editable="true" onMouseClicked="#handleMouseClick" prefHeight="339.0" prefWidth="146.0" />
+            <TableView id="table" fx:id="table" prefHeight="200.0" prefWidth="200.0">
+              
+            </TableView>
+        </items>
+      </SplitPane>
+   </children>
+</VBox>

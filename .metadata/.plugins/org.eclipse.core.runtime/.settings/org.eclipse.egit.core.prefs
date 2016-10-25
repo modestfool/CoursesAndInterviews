@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/Users/basavakanaparthi/Documents/odrive/Google Drive/Stony Brook/workspace/.git\:/Users/basavakanaparthi/Documents/odrive/Google Drive/Stony Brook/workspace/git/.git\:/Users/basavakanaparthi/Documents/odrive/Google Drive/Stony Brook/workspace/hl7Parser/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:git/.git\:hl7Parser/.git\:
+core_defaultRepositoryDir=\ ${workspace_loc}/git\n\n
+eclipse.preferences.version=1

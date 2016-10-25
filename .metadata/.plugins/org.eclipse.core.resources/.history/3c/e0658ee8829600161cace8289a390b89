@@ -1,0 +1,4 @@
+jdbcdriver=com.mysql.jdbc.Driver
+dburl=jdbc:mysql://localhost/lmstocks
+username=root
+password=sindhu
